@@ -58,12 +58,14 @@ def check_and_clear_existing(txt_file, m3u_file):
 
 
 def clear_output_files(txt_output_dir, m3u_output_dir):
-    """运行前清理历史产物，避免旧命名文件残留。"""
+    """运行前清理历史产物，避免旧命名文件残留。（保留 migu.m3u）"""
     for out_dir, suffix in ((txt_output_dir, ".txt"), (m3u_output_dir, ".m3u")):
         if not os.path.exists(out_dir):
             continue
         for name in os.listdir(out_dir):
             if name.endswith(suffix):
+                if name == "migu.m3u":
+                    continue  # 保留咪咕源，由工作流单独同步
                 try:
                     os.remove(os.path.join(out_dir, name))
                 except OSError:

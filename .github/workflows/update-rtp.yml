@@ -44,13 +44,13 @@ jobs:
             pip install "requests>=2.31.0"
           fi
 
-      - name: Run updater
-        run: python rtp/b.py
-
       - name: Sync migu source
         run: |
           curl -s -L -o m3u/migu.m3u "https://raw.githubusercontent.com/ioptu/migu_video/main/migu.m3u"
           echo "migu.m3u 已同步 ($(wc -l < m3u/migu.m3u) 行)"
+
+      - name: Run updater
+        run: python rtp/b.py
 
       - name: Commit and push if changed
         run: |
