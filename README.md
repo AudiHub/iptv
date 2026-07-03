@@ -1,0 +1,107 @@
+## IPTV
+
+基于组播源的省级直播列表仓库，按省份自动生成 `m3u/txt` 文件，并在 README 中展示可直接使用的加速下载链接。
+### 咪咕源 实时更新
+- M3U: `https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u`
+
+### 仓库内容
+
+- `rtp/b.py`: 组播源抓取与生成主脚本（支持电信/移动/联通多源提取）
+- `m3u/`: 自动生成的 M3U 文件
+- `txt/`: 自动生成的 TXT 文件
+- `.github/workflows/`: 定时任务与自动更新流程
+
+### 更新机制
+
+- 定时任务执行后自动更新 `m3u`、`txt`
+- 同步自动重写 README 文件列表（含“最近更新时间”）
+- 下载链接统一使用 `gh-proxy` 加速前缀
+
+### 本地运行
+
+```bash
+pip install -r requirements.txt
+python rtp/b.py
+```
+
+## 加速下载说明
+
+以下下载链接均已添加 `gh-proxy` 加速前缀，可直接使用。  
+GitHub README 不支持可执行脚本，`onclick` 复制按钮会失效，因此改为“可复制直链”文本（手动复制即可）。
+
+---
+
+## M3U 文件列表
+
+<table style="width:100%; table-layout:auto;">
+<colgroup>
+<col style="width: 220px;" />
+<col style="width: 120px;" />
+<col style="width: 170px;" />
+<col />
+</colgroup>
+<thead>
+<tr>
+<th style="white-space:nowrap;">文件名</th>
+<th style="white-space:nowrap;">加速链接</th>
+<th style="white-space:nowrap;">最近更新时间</th>
+<th style="white-space:nowrap;">可复制直链</th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="white-space:nowrap;">北京联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">北京联通1.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A1.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A1.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">北京联通2.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A2.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A2.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">天津联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%A4%A9%E6%B4%A5%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%A4%A9%E6%B4%A5%E8%81%94%E9%80%9A.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">天津联通1.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%A4%A9%E6%B4%A5%E8%81%94%E9%80%9A1.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%A4%A9%E6%B4%A5%E8%81%94%E9%80%9A1.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">山东联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%B1%B1%E4%B8%9C%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%B1%B1%E4%B8%9C%E8%81%94%E9%80%9A.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">广东电信.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">河北联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">河北联通1.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A1.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A1.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">河南联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">河南联通1.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A1.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A1.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">湖北电信.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B9%96%E5%8C%97%E7%94%B5%E4%BF%A1.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E6%B9%96%E5%8C%97%E7%94%B5%E4%BF%A1.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">辽宁联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A.m3u</code></td></tr>
+</tbody>
+</table>
+## TXT 文件列表
+
+<table style="width:100%; table-layout:auto;">
+<colgroup>
+<col style="width: 220px;" />
+<col style="width: 120px;" />
+<col style="width: 170px;" />
+<col />
+</colgroup>
+<thead>
+<tr>
+<th style="white-space:nowrap;">文件名</th>
+<th style="white-space:nowrap;">加速链接</th>
+<th style="white-space:nowrap;">最近更新时间</th>
+<th style="white-space:nowrap;">可复制直链</th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="white-space:nowrap;">北京联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">北京联通1.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A1.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A1.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">北京联通2.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A2.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A2.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">天津联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%A4%A9%E6%B4%A5%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%A4%A9%E6%B4%A5%E8%81%94%E9%80%9A.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">天津联通1.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%A4%A9%E6%B4%A5%E8%81%94%E9%80%9A1.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%A4%A9%E6%B4%A5%E8%81%94%E9%80%9A1.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">山东联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%B1%B1%E4%B8%9C%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%B1%B1%E4%B8%9C%E8%81%94%E9%80%9A.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">广东电信.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">河北联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">河北联通1.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A1.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A1.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">河南联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">河南联通1.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A1.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A1.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">湖北电信.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B9%96%E5%8C%97%E7%94%B5%E4%BF%A1.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E6%B9%96%E5%8C%97%E7%94%B5%E4%BF%A1.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">辽宁联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-03 10:55:00</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A.txt</code></td></tr>
+</tbody>
+</table>
+---
+
+## 免责声明
+
+- 本仓库中的频道地址来源于网络公开信息抓取与整理，仅供技术学习、测试与研究使用。
+- 本仓库不存储、不制作任何视频内容，不提供任何视听节目传播服务。
+- 链接可用性与内容合法性由源站提供方负责，可能随时失效或变更。
+- 使用者应遵守所在地法律法规及相关版权要求，因使用本仓库内容产生的风险与责任由使用者自行承担。
