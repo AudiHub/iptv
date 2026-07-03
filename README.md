@@ -2,7 +2,7 @@
 
 基于组播源的省级直播列表仓库，按省份自动生成 `m3u/txt` 文件，并在 README 中展示可直接使用的加速下载链接。
 ### 咪咕源 实时更新
-- M3U: `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u`
+- **M3U**: **[`https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u`](https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u)**
 
 ### 仓库内容
 
