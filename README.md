@@ -49,9 +49,9 @@ GitHub README 不支持可执行脚本，`onclick` 复制按钮会失效，因�
 </tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap;">migu.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-09-07 12:02:47</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u</code></td></tr>
-<tr><td style="white-space:nowrap;">北京联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-09-07 12:02:47</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.m3u</code></td></tr>
-<tr><td style="white-space:nowrap;">重庆联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-09-07 12:02:47</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">migu.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-09-08 01:39:15</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">北京联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-09-08 01:39:15</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">重庆联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-09-08 01:39:15</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.m3u</code></td></tr>
 </tbody>
 </table>
 ## TXT 文件列表
@@ -72,8 +72,8 @@ GitHub README 不支持可执行脚本，`onclick` 复制按钮会失效，因�
 </tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap;">北京联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-09-07 12:02:47</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.txt</code></td></tr>
-<tr><td style="white-space:nowrap;">重庆联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-09-07 12:02:47</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">北京联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-09-08 01:39:15</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">重庆联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-09-08 01:39:15</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/txt/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.txt</code></td></tr>
 </tbody>
 </table>
 ---
